@@ -1,5 +1,6 @@
 import "./App.css";
 import FaqCard from "./components/FaqCard";
+import "./components/accordion.css";
 
 function App() {
   return (

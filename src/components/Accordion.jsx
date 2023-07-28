@@ -18,10 +18,12 @@ function Accordion() {
       {accordionData.map((data, index) => (
         <div key={index} className="text-left">
           <div
-            className="flex items-center justify-between cursor-pointer"
+            className="flex items-center justify-between cursor-pointer accordion-item"
             onClick={() => toggle(index)}
           >
-            <h3 className="font-bold mt-5">{data.title}</h3>
+            <h3 className={`my-5 ${open === index ? "font-bold mb-0" : ""}`}>
+              {data.title}
+            </h3>
             <div>
               {open === index ? (
                 <img className="rotate-180" src={arrow} alt="Arrow up" />
