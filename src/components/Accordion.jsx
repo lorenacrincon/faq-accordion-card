@@ -32,7 +32,11 @@ function Accordion() {
               )}
             </div>
           </div>
-          {open === index && <p className="font-thin my-5 ">{data.desc}</p>}
+          {open === index && (
+            <p className="my-5" style={{ color: "var( --darkGrayishBlue)" }}>
+              {data.desc}
+            </p>
+          )}
           <hr />
         </div>
       ))}

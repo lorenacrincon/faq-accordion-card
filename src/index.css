@@ -4,10 +4,9 @@
 
 :root {
   font-family: "Kumbh Sans", sans-serif;
-  line-height: 1.4;
-  font-weight: 400;
+  font-size: 12px;
 
-  color: var(--veryDarkDesaturatedBlue);
+  color: var(--veryDarkGrayishBlue);
   background-image: linear-gradient(
     to bottom,
     var(--softViolet),
@@ -22,13 +21,12 @@
   --softBlue: hsl(240, 73%, 65%);
   /* TEXT */
   --veryDarkGrayishBlue: hsl(237, 12%, 33%);
-  ---darkGrayishBlue: hsl(240, 6%, 50%);
+  --darkGrayishBlue: hsl(240, 6%, 50%);
   /* DIVIDERS */
   --lightGrayishBlue: hsl(240, 5%, 91%);
 }
 
 html,
 body {
-  height: 100%;
   margin: 0;
 }
