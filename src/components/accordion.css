@@ -1,3 +1,11 @@
 .accordion-item:hover {
   color: var(--softRed);
 }
+
+.woman-desktop {
+  clip-path: inset(0 0 0 60px);
+}
+
+.bg-pattern-desktop {
+  clip-path: inset(120px 0 0 220px);
+}
